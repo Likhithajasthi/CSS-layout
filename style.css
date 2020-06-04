@@ -1,0 +1,42 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+body {
+    line-height: 1.6;
+    color: #3a3a3a;
+
+
+}
+.main-container{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/*h1{
+    margin-top:0;
+}*/
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+    background: #3acec2;
+    padding: 1em 0;
+}
+
+.main-footer {
+    padding: 2em 0;
+    background: #d9e4ea;
+}
+
+/* ---- Page Elements ---- */
+

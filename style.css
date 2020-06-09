@@ -68,10 +68,6 @@ a {
 
 /* ---- Layout Containers ---- */
 
-.main-container {
-    padding-left: 1em;
-    padding-right: 1em;
-}
 
 .main-header {
     padding-top: 1.5em;
@@ -79,8 +75,13 @@ a {
     background: #3acec2;
     margin-bottom: 30px;
     text-align: center;
-}
 
+    /*height: 110px;*/
+}
+.main-container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
 .main-footer {
     text-align: center;
     padding: 2em 0;
@@ -93,10 +94,12 @@ a {
     margin-top:5px;
     margin-bottom: 25px;
     margin-right:25px;
+    padding: 10px;
+    border: 1px solid grey;
 }
 
 
-.test::after {
+.clearfix::after {
     content:"";
     display:table;
     clear:both;
@@ -115,6 +118,35 @@ a {
         width: 80%;
         max-width: 1150px;
         margin: 0 auto;
+    }
+    .co1{
+        float:left;
+    }
+    .first-container{
+        width: 50%;
+        padding:10px;
+
+        margin:0;
+        float: left;
+
+    }
+    .second-container{
+        width: 50%;
+        padding:10px;
+
+        margin:0;
+        float: left;
+
+    }
+    .name{
+        float:left
+    }
+    .main-nav{
+        float: right;
+    }
+    .main-nav li{
+        float:left;
+        margin-left: 10px;
     }
 
     .name,

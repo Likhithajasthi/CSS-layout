@@ -69,16 +69,7 @@ a {
 /* ---- Layout Containers ---- */
 
 
-.main-header {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    background: #3acec2;
-    margin-bottom: 30px;
-    text-align: center;
-    position: fixed;
 
-    /*height: 110px;*/
-}
 .main-container {
     padding-left: 1em;
     padding-right: 1em;
@@ -110,7 +101,21 @@ a {
 ==================================== */
 
 @media (min-width: 769px) {
+body{
+    padding-top: 68px;
+}
+    .main-header {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        background: #3acec2;
+        margin-bottom: 30px;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top:0;
 
+        /*height: 110px;*/
+    }
     .wrap {
         min-height: calc(100vh - 89px);
     }

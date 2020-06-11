@@ -113,7 +113,7 @@ body{
         position: fixed;
         width: 100%;
         top:0;
-
+        z-index: 1;/* exclude overlapping the imgae with fixed positioning headers*/
         /*height: 110px;*/
     }
     .wrap {

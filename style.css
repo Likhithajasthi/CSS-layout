@@ -75,6 +75,7 @@ a {
     background: #3acec2;
     margin-bottom: 30px;
     text-align: center;
+    position: fixed;
 
     /*height: 110px;*/
 }

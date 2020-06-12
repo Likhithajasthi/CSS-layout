@@ -102,7 +102,7 @@ a {
 
 @media (min-width: 769px) {
 body{
-    padding-top: 68px;
+    padding-top: 150px;
 }
     .main-header {
         padding-top: 1.5em;
@@ -132,20 +132,24 @@ body{
         padding-right: 1em;
     }
     .first-container{
-        width: 50%;
+        width: 30%;
         padding:10px;
-
         margin:0;
         float: left;
 
     }
     .second-container{
-        width: 50%;
+        width: 40%;
         padding:10px;
-
         margin:0;
         float: left;
 
+    }
+    .tertiary{
+        width: 30%;
+        padding: 10px;
+        margin:0;
+        float:left;
     }
     .name{
         float:left

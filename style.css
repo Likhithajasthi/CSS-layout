@@ -113,7 +113,7 @@ body{
         position: fixed;
         width: 100%;
         top:0;
-        z-index: 1000;/* exclude overlapping the imgae with fixed positioning headers*/
+        z-index: 1000;/* exclude overlapping the image with fixed positioning headers*/
         /*height: 110px;*/
     }
     .wrap {
@@ -131,27 +131,24 @@ body{
         padding-left: 1em;
         padding-right: 1em;
     }
-    .first-container{
-        width: 30%;
-        padding:10px;
-        margin:0;
-        float: left;
-
-    }
+    .first-container,
     .second-container{
-        width: 40%;
-        padding:10px;
+        width: 50%;
+        padding:20px;
         margin:0;
         float: left;
 
     }
-    .tertiary{
+    /*.second-container{
         width: 30%;
-        padding: 10px;
+        padding:10px;
         margin:0;
-        float:left;
-    }
-    .name{
+        float: left;
+
+    }*/
+
+    .name,
+    .col{
         float:left
     }
     .main-nav{
@@ -159,7 +156,7 @@ body{
     }
     .main-nav li{
         float:left;
-        margin-left: 10px;
+        margin-left: 15px;
     }
 
     .name,
@@ -172,6 +169,20 @@ body{
         width: 240px;
     }
 
+}
+@media (min-width: 1024px) {
+    .main-container{
+        width: 100%;
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+    .first-container{
+        width: 40%;
+    }
+    .second-container,
+    .tertiary{
+        width:30%;
+    }
 }
 
 
